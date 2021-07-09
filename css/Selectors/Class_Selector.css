@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+      
+        
+      <style>
+         
+          /* class selector */
+          .p2 {
+              color: aqua ;
+          }
+          
+         
+          
+        
+        </style>
+      
+
+    </head>
+    
+    <body>
+        
+       
+        <p class="p2"> this pararaph 2 </p>
+        <p>this paragraph 3 </p>
+        
+        <ul>
+            <li>vb.net</li>
+            <li> css </li>
+            <li>javascrip </li>
+        
+        </ul>
+       
+    </body>
+
+
+</html>

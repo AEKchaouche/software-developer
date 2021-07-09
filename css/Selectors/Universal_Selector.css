@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+      
+        
+      <style>
+         
+          /* Universal Selector */
+          * h1 {
+              color: royalblue;
+          }
+    
+        
+        </style>
+      
+
+    </head>
+    
+    <body>
+        
+        <p> Welcome to css </p>
+        
+        <ul>
+            <li>vb.net</li>
+            <li> css </li>
+            <li>javascrip </li>
+    
+        </ul>
+
+        <h1>Universal Selector </h1>
+        <h3 id="h3">Universal Selector </h3>
+        <h4>Universal Selector </h4>
+        
+    </body>
+
+
+</html>

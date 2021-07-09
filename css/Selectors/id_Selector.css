@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+      
+        
+      <style>
+          
+          /* id selector */
+          
+          #h3 {
+              color: chartreuse; 
+          }
+         
+        
+        </style>
+      
+
+    </head>
+    
+    <body>
+        
+        <p> Welcome to css </p>
+        
+
+        <h3 id="h3">Universal Selector </h3>
+        
+        <h5>Grouping selectors02</h5>
+        <h6>Grouping selectors3</h6>
+    </body>
+
+
+</html>
