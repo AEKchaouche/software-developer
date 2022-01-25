@@ -1,38 +1,143 @@
 <!DOCTYPE html>
 
-
 <html>
+
     <head>
        <meta charset="utf-8">
-       <title>Club Espoir Ammal</title>
+       <title>Acceil</title>
        <link rel="stylesheet" href="style.css">
        <script src="file.js"></script>
+    <style>
+         nav ul ul {
+        display: none;
+      }
+      nav ul li:hover > ul {
+        display: block;
+      }
+      nav ul:after {
+        content: "";
+        clear: both;
+        display: block;
+      }
         
-    </head>
-    
+      nav ul li {
+        float: left;
+        position: relative;
+        list-style-type: none;
+      }
+        
+     nav ul li:hover {
+        background: rgba(19, 20, 123, 0.67);
+      }
+      nav ul li:hover a {
+        color: #fff;
+      }
+      nav ul li a {
+        display: block;
+        padding: 20px 30px;
+        color: #ffffff;
+        text-decoration: none;
+        background-color: rgba(35, 17, 134, 0.8);
+        font-family: sans-serif;
+      }
+      nav ul ul {
+        background: #5f6975;
+        padding: 0;
+        position: absolute;
+        top: 100%;
+      }
+      nav ul ul li {
+        float: none;
+        position: relative;
+      }
+      nav ul ul li a {
+        padding: 15px 10px;
+        color: #ffffff;
+        text-transform: uppercase;
+      }
+      nav ul ul li a:hover {
+        background: rgba(19, 20, 123, 0.67);
+      }
+    </style>
+   
+    </head>  
     <body>
-       <!-- start header -->
-       <div>
-           <header>
-               
-           </header>
-       </div>
-       
-       <!-- end header -->
-       
-       <!-- start navigation -->
-       <div>
+        <div>
            <nav>
-               <a href="Club Espoir">Culb Espoir</a>
-               <a href="News">News</a>
-               <a href="Equipe">Equipe</a>
-               <a href="Matches">Matches</a>
-               <a href="Saison">Saison</a>
-               <a href="Competition">Competition</a>
+               <ul>
+                   <li>
+                       
+                       <a href="Accueil">Accueil</a>
+                   
+                   <ul>
+                       <li><a href="nav/propos.html">a propos</a></li>
+                       <li><a href="nav/frontiaire%20geogphique.html">frontiaire geogphique</a> </li>
+                       <li><a href="nav/sport.html">sur le sport </a></li>
+                   </ul>
+               
+                   </li>
+                
+                   <li>
+                       <a href="News">News</a>
+                     <ul>
+                         <li><a href="nav/les%20progejt.html">les progejt</a></li>  
+                         <li><a href="nav/preparation.html">preparation</a></li>
+                         <li><a href="nav/evenements.html">Événements</a></li>
+                    </ul>   
+                   </li>
+                   <li>
+                       <a href="Football">Football</a>
+                       <ul>
+                           <li><a href="nav/L'historique%20du%20club.html">L'historique du club</a></li>
+                           <li><a href="nav/saison.hmtl">saison </a></li>
+                           <li><a href="nav/equipes.html">equipes</a></li>
+                           <li><a href="nav/Palmar%C3%A8s.html">Palmarès</a></li>
+                           <li><a href="nav/joueurs.hmtl">joueurs</a></li>
+                       </ul>
+                   </li>
+                   <li>
+                       <a href="arts martiaux">arts martiaux</a>
+                       <ul>
+                           <li><a href="nav/origine%20des%20arts%20martiaux.html">origine des arts martiaux</a></li>
+                           <li><a href="nav/karaté.html">Pourquoi faire du karaté</a></li>
+                           <li><a href="nav/style%20yousdkane.html">Le style yousdkane</a></li>
+                           <li><a href="nav/athlete.html">membres & ATHLÈTES</a></li>
+                           <li><a href="nav/albums%20photos.html">Les albums photos</a></li>
+                       
+                       </ul>
+                   </li>
+                   <li>
+                       <a href="">volley-ball</a>
+                       <ul>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                       </ul>
+                       
+                   </li>
+                   <li>
+                       <a href="nav/blogue.html">Blogue</a>
+                       <ul>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                       </ul>
+                       
+                   </li>
+                    <li>
+                       <a href="nav/Competition.html">Competition</a>
+                       <ul>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                       </ul>
+                       
+                   </li>
+
+               
+               </ul>
            </nav>
-       </div>
-       
-        <!-- end navigation -->
+        </div>
         
     </body>
 </html>
