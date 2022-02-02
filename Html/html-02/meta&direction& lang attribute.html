@@ -1,7 +1,25 @@
 <DOCTYPE html>
 	<html lang="fr">
 		<head>
-			<title>html meta direction lang attribute </title>
+			  <title>html meta direction lang attribute </title>
+			
+		<!-- Specify the character encoding for the HTML document -->  
+			<meta charset="UTF-8">
+			
+		<!-- Define a description of your web page --> 
+              <meta name="description" content="Free Web tutorials">
+			
+		<!-- Define keywords for search engines  --> 
+			  <meta name="keywords" content="HTML, CSS, JavaScript">
+			 
+		<!-- Define the author of a page  --> 
+			  <meta name="author" content="John Doe">
+			
+		<!-- Setting the viewport to make your website look good on all devices mobile phone than on a computer screen. --> 
+			  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		
+		<!-- Refresh document every 30 seconds -->
+			<p-equiv="refresh" content="30">
 	
 		<!--  The Lang Attribute 
               ** Lang :  specifies the language of the element's content 
@@ -9,11 +27,21 @@
               ** Syntax :  <element lang="language_code">
         -->
 			
+			
+		<!-- Meta  : the <meta> tag defines metadata an Html metadada is information about data 
+             Meta always used inside the head element
+
+             ** Syntax : <meta>tag -->
+			
+			
+			
 		<!-- HTML dir Attribute
 			 ** The dir attribute specifies the text direction of the element's content
 			 
 			 ** Syntax : <element dir"ltr">
-                         ltr : let-to-right text direction
+                         <p  dir "rtl">
+
+                         ltr : let to right text direction
                          rtl : right to life text direction
                          auto : Let the browser figure out the text direction, based on the content       (only recommended if the text direction is unknown)
 			
@@ -22,10 +50,13 @@
 		</head>
 		
 		<body>
-			<h3>HTML dir Attribute</h3>
+			
+		<!-- HTML dir Attribute -->
+			
+			<p dir="rtl">Write this text right to left </p>
+			<p dir="ltr">Write this text left to right</p>
+			<p dir="auto">Write this text auto</p>
 		
 		</body>
-	
-	
-	
+
 	</html>
