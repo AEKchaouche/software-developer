@@ -18,7 +18,13 @@ int x = 30, y = 30, z = 40;
 cout << x + y + z <<endl;
 return 0;
 
+/* - Local Variable
 
+   - Instance Variable 
+    
+   - Static Variable 
+
+*/
 
 }
 
