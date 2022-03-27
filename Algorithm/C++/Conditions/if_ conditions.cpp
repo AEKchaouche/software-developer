@@ -12,7 +12,7 @@ using namespace std;
 
      int main() {
          int x = 24;
-         int y = 1
+         int y = 1;
          int time = 20;
          if (20 > 18) 
          if (x > y)
