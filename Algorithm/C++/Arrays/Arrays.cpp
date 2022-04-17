@@ -7,10 +7,11 @@ using namespace std;
 
 // string cars[4];
 
-int main () {
+int main() {
     string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
-    cout <<cars[3];
+    for (int i = 0; i < 4 ; i++) {
+        cout << cars[i] << "\n";
+    }
 
-return 0;
-
+    return 0;
 }
