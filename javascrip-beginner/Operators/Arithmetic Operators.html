@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h3>JavaScript Arithmetic Operators</h3>
+		<p>typical aritiemetic opration takes two numbers and pruduces a new number</p>
+        <p id="demo"></p>
+		<p id="demo1"></p>
+		<p id="demo2"></p>
+		<p id="demo3"></p>
+		<p id="demo4"></p>
+		<p id="demo5"></p>
+		<script>
+			// The two numbers can be literals:
+			let a = 100 + 50;
+			document.getElementById("demo").innerHTML = a;		
+			
+			// or variable
+			let x = 200;
+			let y = 300;
+			let z = x + y;
+			document.getElementById("demo1").innerHTML = z;
+			
+			// or expressions:
+			let d = 3;
+			let b = (100 + 50) * d;
+			document.getElementById("demo2").innerHTML = b;
+			
+			// Adding (+),Subtracting (-), Dividing (/), multiplication(*)
+			let h = 30;
+			let k = 30;
+			let s = h + k;
+			
+			document.getElementById("demo3").innerHTML = s;
+			
+			// Incrementing (++)
+			// Decrementing (--)
+			let n = 5;
+			n++;
+			let m = n;
+			document.getElementById("demo4").innerHTML = m;
+			
+			// Exponentiation 
+			let e = 5;
+			document.getElementById("demo5").innerHTML = e ** 2;
+		</script>
+		
+		<img src="/img/arithmOpe.PNG">
+	
+	</body>
+
+</html>
