@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>else statement</title>
+    </head>
+
+    <body>
+        <!-- 
+            if (condition) {
+            //  block of code to be executed if the condition is true
+          } else {
+            //  block of code to be executed if the condition is false
+          }   
+        -->
+
+        <p>A time-based greeting</p>
+        <p id="demo"></p>
+        <script>
+            const hour = new Date().getHours()
+            let greeting;
+
+            if (hour < 18) {
+                greeting = "Good day";
+            } else {
+                greeting = "Good evening";
+            }
+
+            document.getElementById("demo").innerHTML = greeting;
+        </script>
+    </body>
+</html>
