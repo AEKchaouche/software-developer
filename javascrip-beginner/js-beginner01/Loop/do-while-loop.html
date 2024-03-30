@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascritp do while loop</title>
+        <script src="do-while-loop.js"></script>
+        <P id="demo"></P>
+    </head>
+
+    <body>
+        <script>
+            let text = " ";
+            let x = 0 ;
+            do {
+                text += "<br> The number is :"  + x;
+                x++;
+            } 
+            while (x < 5);
+            document.getElementById("demo").innerHTML = text ;       
+         </script>
+    </body>
+</html>
