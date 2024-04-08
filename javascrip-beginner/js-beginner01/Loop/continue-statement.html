@@ -3,10 +3,23 @@
     <head>
         <title>Javascript Continue Statemnt</title>
         <script src="continue-statement.js"></script>
+        <p id="demo"></p>
 
     </head>
 
     <body>
+        <script>
+            let text = "";
+            for (x = 0; x < 10; x++) {
+                if (x === 3 || x === 4 || x === 5) {
+                    continue
+                };
+                text += "The number " + x + "<br>";
+            }
+            document.getElementById("demo").innerHTML = text ;
+
+        </script>
+      
 
     </body>
 </html>
