@@ -10,6 +10,6 @@ function hello(someone) {
     return ` hello ${someone}`;
 
 }
-_
+
 console.log(hello("amir"));
 
