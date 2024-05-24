@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="hoisting.js"></script>
+    <p id="demo"></p>
+</head>
+<body>
+    <script>
+        x = 6;  // Assign 6 to x
+        var y; // Declare y
+
+        elem = document.getElementById("demo").innerHTML = x + " " + y;
+
+        var x; // Declare x, variable can be declared after it has been used
+        y = 7; // Assgin 7 to y. 7  is hoisted to the top.
+
+    </script>
+    
+</body>
+</html>
