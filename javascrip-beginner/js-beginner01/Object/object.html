@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object in Javascipt</title>
+    <script src="object.js"></script>
+
+
+    
+
+</head>
+<body>
+    <h3>Creating JavaScript Objects</h3>
+    <h3>Using an Object Literal</h3>
+
+    <p id="demo"></p>
+    <script>
+    
+        // Create an Object
+        const person = {}
+
+            // Add Properties
+            person.firstName = "John";
+            person.lastName = "Doe";
+            person.age = 50;
+            person.eyeColor = "blue";
+
+            // Display Data from Object
+
+            document.getElementById("demo").innerHTML = 
+            person.firstName + " " +  person.lastName  + " is  "  + person.age + " years old."
+    
+    </script>
+    
+</body>
+</html>
