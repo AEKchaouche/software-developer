@@ -15,23 +15,35 @@
     <h3>Using an Object Literal</h3>
 
     <p id="demo"></p>
-    <script>
-    
-        // Create an Object
-        const person = {}
+    <p id="demo1"></p>
 
-            // Add Properties
-            person.firstName = "John";
-            person.lastName = "Doe";
-            person.age = 50;
-            person.eyeColor = "blue";
+   <script>
+    // Create an empty JavaScript object using {}:
+    const person = {};
 
-            // Display Data from Object
+    // Add properties
+    person.firstName = "John";
+    person.lastName = "Doe";
+    person.age = 50;
+    person.eyeColor = "blue";
 
-            document.getElementById("demo").innerHTML = 
-            person.firstName + " " +  person.lastName  + " is  "  + person.age + " years old."
-    
-    </script>
-    
+    // Display Dta from Object
+    document.getElementById("demo").innerHTML = 
+    person.firstName + "  " + person.lastName +  " is " + person.age  + " years old."
+
+
+    // Create an empty JavaScript object using new Object()
+    const user = new Object();
+
+    // Add properties
+    user.lastName = "Seeya";
+    user.age = 25;
+    user.eyeColor = "blue";
+
+    // Display Dta from Object
+    document.getElementById("demo1").innerHTML = 
+    user.lastName +  " is " + user.age + " years old"
+
+   </script>
 </body>
 </html>
