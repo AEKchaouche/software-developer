@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekcting by ID in javascrip</title>
+    <script src="ElementbyId.js"></script>
+
+    <p id="intro">I am learning javascrip</p>
+    
+    <p id="demo"></p>
+
+    
+</head>
+<body>
+    
+    <div style="margin: 80px">
+        <h1 id="myElement">Hello, World</h1>
+        <button onclick="changeColor()">Change color</button>
+        
+    </div>
+
+    <script>
+        const element = document.getElementById("intro");
+        document.getElementById("demo").innerHTML = "My name is Abd, " + element.innerHTML;
+
+
+    </script>
+        
+    
+</body>
+</html>
